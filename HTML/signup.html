@@ -8,7 +8,7 @@
     <body>
         <img src="../Assets/Images/InfinityLogo.jpg" class="header">
         <br>
-        <form align="center" method="POST" action="signup2.html">
+        <form align="center" method="POST" action="index.html">
             <label for="signup-username" id="signup-username-label">Username:<br></label>
             <input type="text" name="signup-username" id="signup-username">
             <br>
@@ -20,8 +20,11 @@
             <label for="signup-password" id="signup-password-label">Password:<br></label>
             <input type="password" id="signup-password" name="signup-password">
             <br>
-            <p>Passwords must contain:<br><br>At least 4 numbers<br><br>At least 3 letters<br><br>At least 2 symbols<br><br>Password length must be at least 10</p>
-            <input type="submit" value="Next Step" id="signup">
+            <br>
+            <input type="checkbox" value="true" name="I Agree To The Terms Of Service" id="I Agree To The Terms Of Service">
+            <label for="I Agree To The Terms Of Service">I Agree To The <a id="IAgreeToTheTermsOfService" href="../Information/TermsOfPolicy.txt">Terms Of Service</a></label>
+            <br>
+            <input type="submit" value="Sign Up" id="signup">
             <br>
             <a href="login.html" class="createAccount"><span>Already have an account? Log in</span></a>
         </form>
