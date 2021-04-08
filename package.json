@@ -1,0 +1,22 @@
+{
+  "name": "infinity",
+  "version": "1.0.0",
+  "description": "Infinity is an online bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbrahimMomin/Infinity.git"
+  },
+  "author": "Ebrahim Momin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbrahimMomin/Infinity/issues"
+  },
+  "homepage": "https://github.com/EbrahimMomin/Infinity#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
