@@ -43,6 +43,7 @@ header {
 
 #login:hover, #signup:hover {
     background: #00b7ff9f;
+    transition: background 2s;
 }
 
 .createAccount {
@@ -80,4 +81,10 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.main-page-footer {
+    text-align: center;
+    color: rgba(125, 125, 125, 0.75);
+    opacity: 0.75;
 }
