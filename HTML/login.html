@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
+        <meta charset="UTF-8"/>
         <title>INFINITY LOGIN</title>
-        <link href="../CSS/styles.css" rel="stylesheet" type="text/css">
+        <link href="../CSS/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <img class="header" src="../Assets/Images/InfinityLogo.jpg">
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <br>
-        <h2 class="login">Log In</h2>
-        <br>
-        <form align="center" method="GET" action="index.html">
-            <label for="login-username" id="login-username-label">Username:<br></label>
-            <input type="text" name="login-username" id="login-username">
+        <header class="login-header">
+            <img class="header" src="../Assets/Images/InfinityLogo.jpg" alt="Infinity Logo"/>
+            <br>
+            <h1>Log In</h1>
+        </header>
+        <form id="login-form" method="GET" action="index.html">
+            <label for="login-username" id="login-username-label">Username Or Email:<br></label>
+            <input type="text" name="login-username" id="login-username"/>
             <br>
             <br>
             <label for="login-password" id="login-password-label">Password:<br></label>
-            <input type="password" id="login-password" name="login-password">
+            <input type="password" id="login-password" name="login-password"/>
             <br>
-            <a href="index.html"><input type="submit" value="Log In" id="login"></a>
+            <input type="submit" value="Log In" id="login"/>
             <br>
             <a href="signup.html" class="createAccount"><span>Don't have an account? Create one</span></a>
         </form>
