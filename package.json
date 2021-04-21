@@ -11,12 +11,13 @@
     "url": "git+https://github.com/EbrahimMomin/Infinity.git"
   },
   "author": "Ebrahim Momin",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/EbrahimMomin/Infinity/issues"
   },
   "homepage": "https://github.com/EbrahimMomin/Infinity#readme",
   "dependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "devDependencies": {}
 }
